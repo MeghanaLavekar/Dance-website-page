@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* above for avoiding unnecessary spaces and gaps */
+    
+
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    /* filter: invert(1); */
+
+}
+
+#logo img{
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+
+}
+
+#navbar{
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 13px 14px;
+}
+
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 24px;
+    color: white;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/bj.jpg");
+    height: 450px;
+    background-color: red;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+
+#introSection div.small{
+    font-size: 30px;
+
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: red;
+    font-family: 'PT Serif', serif;
+}
+
+#sponsorsSection h2{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    /* filter: invert(1); */
+}
+
+#sponsors img{
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 100px;
+    
+}
+
+#missionSection{
+    width: 67%;
+    margin: auto;
+    height: 300px;
+    background-color: black;   
+}
+
+#missionSection h2{
+    text-align: center;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: white;
+    width: 29%;
+    margin: 23px 25px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    filter: invert(1);
+}
+
+.card-img img{
+    height: inherit;
+    border: 2px solid white;
+    border-radius: 120px; 
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#footer{
+    height: 100px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}

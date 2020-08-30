@@ -1,0 +1,16 @@
+{
+  "name": "meghanadanceacademy",
+  "version": "1.0.0",
+  "description": "this is a website for a popular dance academy",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meghana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}

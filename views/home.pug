@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+      div Welcome to Meghana's Dance Academy
+      div.small Eat Dance Sleep Repeat
+
+    section#missionSection
+      h2 Our mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/l1.png")
+          div.card-content
+              p This is the best dance academy of the universe
+      div.card
+        h3 Dance The Way You Like
+        div.card-box
+          div.card-img
+            img(src="/static/l2.jpg")
+          div.card-content
+              p This is the best dance academy of the universe
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/l3.jpg")
+          div.card-content
+              p This is the best dance academy of the universe
+
+    section#sponsorsSection
+      h2 Our sponsors
+      div#sponsors
+        img(src="/static/s1.png", alt="sponsor img", class="spimage")
+        img(src="/static/s2.jpeg", alt="sponsor img", class="spimage")
+        img(src="/static/s3.jpg", alt="sponsor img", class="spimage")
+        img(src="/static/s4.png", alt="sponsor img", class="spimage") 
